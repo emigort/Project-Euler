@@ -8,7 +8,7 @@ require '/app/utils.php';
  */
 
 //div_count*((N(N + 1))/2)
-$max = 999;
+$max = 9;
 
 $result = (sumDivisible($max, 3) + sumDivisible($max, 5)) - sumDivisible($max, 15);
 
@@ -19,7 +19,4 @@ function sumDivisible($max, $div)
     $div_count = intval($max / $div);
     return $div * (($div_count * ($div_count + 1)) / 2);
 }
-
-
-
 require 'app/running_time.php';
