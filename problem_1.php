@@ -17,7 +17,7 @@ echo $result;
 function sumDivisible($max, $div)
 {
     $div_count = intval($max / $div);
-    return $div * ($div_count * ($div_count + 1)) / 2;
+    return $div * (($div_count * ($div_count + 1)) / 2);
 }
 
 
