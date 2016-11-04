@@ -11,16 +11,13 @@ require '/app/utils.php';
   By considering the terms in the Fibonacci sequence whose values do not exceed
   four million, find the sum of the even-valued terms.
  */
-
+$n=0;
 $sum = 0;
-for ($i = 2; $i <= 4000000; $i++) {
+for ($i = 0; $n <= 4000000; $i++) {
     $n = round(pow((sqrt(5) + 1) / 2, $i) / sqrt(5));
-
-    if ($n > 4000000) {
-        break;
-    } else {
+        echo $n.EOL;
         $sum += $n % 2 == 0 ? $n : 0;
-    }
+  
 }
 echo $sum;
 
