@@ -64,6 +64,6 @@ for ($i = 0; $i < $n_limit; $i++) {
     }
 }
 
-print_array($max);
+echo $max;
 
 require 'app/running_time.php';
