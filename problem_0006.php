@@ -15,13 +15,13 @@ require '/app/utils.php';
  */
 $sum1 = $sum2 = 0;
 for ($i = 1; $i <= 100; $i++) {
-    $sum1+=pow($i, 2);
+    $sum1+=$i * $i;
 }
 
 for ($i = 1; $i <= 100; $i++) {
     $sum2+=$i;
 }
 
-echo pow($sum2, 2) - $sum1;
+echo ($sum2*$sum2) - $sum1;
 
 require 'app/running_time.php';
