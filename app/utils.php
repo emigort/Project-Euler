@@ -1,4 +1,5 @@
 <?php
+ini_set('memory_limit','512M');
 $start = microtime(true);
 /*
   Utilities functions to solve the problems
