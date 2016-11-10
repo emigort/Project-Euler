@@ -18,7 +18,6 @@ for ($i = 1; $i <= 1000000000000; $i++) {
             break;
     }
 }
-
 echo $arr[10001];
 
 require 'app/running_time.php';
