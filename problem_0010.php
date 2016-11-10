@@ -18,6 +18,7 @@ for ($i = 2; $i <= $limit; $i++) {
         }
     }
 }
+
 $result = array();
 foreach ($A as $i => $is_prime) {
     if ($is_prime) {
