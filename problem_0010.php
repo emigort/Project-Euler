@@ -9,7 +9,7 @@ require '/app/utils.php';
 $n = 2000000;
 $limit = intval(sqrt($n));
 $A = array_fill(0, $n, true);
-
+$sum = -1;
 
 for ($i = 2; $i <= $limit; $i++) {
     if ($A[$i - 1]) {
@@ -19,15 +19,15 @@ for ($i = 2; $i <= $limit; $i++) {
     }
 }
 
-$result = array();
+
 foreach ($A as $i => $is_prime) {
     if ($is_prime) {
-        $result[] = $i + 1;
+        $sum += $i + 1;
     }
 }
 
 
-print_array(array_sum($result)-1);
+echo $sum;
 
 
 require 'app/running_time.php';
