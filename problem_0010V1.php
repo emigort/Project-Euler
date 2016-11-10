@@ -4,10 +4,10 @@ require '/app/utils.php';
 /*
   Problem 10 https://projecteuler.net/problem=10
   The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
-  142913828922
+ 
   Find the sum of all the primes below two million.
  * 
- * Improvement of memory consumption, might be slower at first but is the best for large numbers
+ * Improvement of memory consumption, might be slower at first but it is best for large numbers
  */
 
 $sum = 0;
