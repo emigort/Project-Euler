@@ -34,13 +34,12 @@ function collatzSteps($start = 13)
 }
 $y = ['step' => 0, 'number' => 1];
 
-for ($i = 999999; $i >= 1; $i--) {
+for ($i = 999999; $i >= 500000; $i-=2) {
     $x = collatzSteps($i);
     if ($x > $y['step']) {
         $y['step'] = $x;
         $y['number'] = $i;
     }
-    
 }
 
 
