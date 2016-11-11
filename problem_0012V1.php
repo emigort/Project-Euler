@@ -15,6 +15,7 @@ $limit = 65500;
 $count = 1; //we know that 2 is prime
 $candidate = 1;
 
+//Generating prime array until 65,500
 while ($candidate <= $limit) {
     $candidate = $candidate + 2;
     if (isPrime($candidate)) {
