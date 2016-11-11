@@ -34,7 +34,12 @@ function collatzSteps($start = 13)
 }
 $y = ['step' => 0, 'number' => 1];
 
-for ($i = 999999; $i >= 500000; $i-=2) {
+/*
+  Reasoning for choosing 500,001 and odd numbers were was based on
+  ->  every number n under 500,000 has corresponding reverse map 2n in upper half.
+  -> Odd number n, reverse maps to and even number in upper half which in turn maps to a number in lower half.
+ */
+for ($i = 999997; $i >= 500001; $i-=2) {
     $x = collatzSteps($i);
     if ($x > $y['step']) {
         $y['step'] = $x;
