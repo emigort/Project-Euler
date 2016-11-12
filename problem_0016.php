@@ -10,6 +10,6 @@ require '/app/utils.php';
 
 $y = pow(2, 1000);
 $x = sprintf('%f', $y);
-echo array_sum(str_split(str_replace('.', '', $x)));
+echo array_sum(str_split($x));
 
 require 'app/running_time.php';
