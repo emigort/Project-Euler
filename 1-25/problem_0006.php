@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 /*
   Problem 6 https://projecteuler.net/problem=6
 
@@ -24,4 +24,4 @@ for ($i = 1; $i <= 100; $i++) {
 
 echo ($sum2*$sum2) - $sum1;
 
-require 'app/running_time.php';
+require '../app/running_time.php';

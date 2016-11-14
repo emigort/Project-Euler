@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 
 /*
   Problem 12 https://projecteuler.net/problem=12
@@ -45,4 +45,4 @@ function getDiv($n)
 }
 
 
-require 'app/running_time.php';
+require '../app/running_time.php';

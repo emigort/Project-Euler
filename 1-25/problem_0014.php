@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 
 /*
   Problem 14 https://projecteuler.net/problem=14
@@ -52,4 +52,4 @@ print_array($y);
 
 
 
-require 'app/running_time.php';
+require '../app/running_time.php';

@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 
 /*
   Problem 11 https://projecteuler.net/problem=11
@@ -109,4 +109,4 @@ echo $max_product;
 
 
 
-require 'app/running_time.php';
+require '../app/running_time.php';

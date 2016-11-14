@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 /*
   Problem 8 https://projecteuler.net/problem=8
   The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.
@@ -65,4 +65,4 @@ for ($i = 0; $i < $n_limit; $i++) {
 
 echo $max;
 
-require 'app/running_time.php';
+require '../app/running_time.php';

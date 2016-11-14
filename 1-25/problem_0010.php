@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 /*
   Problem 10 https://projecteuler.net/problem=10
   The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
@@ -30,4 +30,4 @@ foreach ($A as $i => $is_prime) {
 echo $sum;
 
 
-require 'app/running_time.php';
+require '../app/running_time.php';

@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 
 /*
   Problem 10 https://projecteuler.net/problem=10
@@ -18,4 +18,4 @@ for ($i = 0; $i < 2000000; $i = gmp_strval(gmp_nextprime($i))) {
 
 echo $sum;
 
-require 'app/running_time.php';
+require '../app/running_time.php';

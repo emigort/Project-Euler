@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 
 
 $n = 3; //start with a prime 
@@ -57,4 +57,4 @@ while ($cnt <= 500) {
 }
 echo $n * (($n - 1) / 2);
 
-require 'app/running_time.php';
+require '../app/running_time.php';

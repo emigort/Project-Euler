@@ -1,6 +1,6 @@
 <?php
 
-require '/app/utils.php';
+require '../app/utils.php';
 
 $limit = 2000000;
 $sieve_bound = round(($limit - 1) / 2);
@@ -27,4 +27,4 @@ echo $sum;
 
 
 
-require 'app/running_time.php';
+require '../app/running_time.php';

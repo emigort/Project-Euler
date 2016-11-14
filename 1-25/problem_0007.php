@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 
 /*
   Problem 7 https://projecteuler.net/problem=7
@@ -20,4 +20,4 @@ for ($i = 1; $i <= 1000000000000; $i++) {
 }
 echo $arr[10001];
 
-require 'app/running_time.php';
+require '../app/running_time.php';

@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 //104743
 $limit = 10000; //we already have 2 in the list
 $count = 1; //we know that 2 is prime
@@ -13,4 +13,4 @@ while ($count <= $limit) {
 }
 echo $candidate;
 
-require 'app/running_time.php';
+require '../app/running_time.php';

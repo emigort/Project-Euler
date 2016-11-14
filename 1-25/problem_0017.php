@@ -1,6 +1,6 @@
 <?php
 
-require '/app/utils.php';
+require '../app/utils.php';
 /*
   Problem 17 https://projecteuler.net/problem=17
 
@@ -132,4 +132,4 @@ function convertNumber2Words($number) {
     return $string;
 }
 
-require 'app/running_time.php';
+require '../app/running_time.php';

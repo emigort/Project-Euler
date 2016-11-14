@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 
 /*
   Problem 13 https://projecteuler.net/problem=13
@@ -109,4 +109,4 @@ $n = [37107287533902102798797998220837590246510135740250,
 
 echo substr(sprintf('%f', array_sum($n)), 0, 10);
 
-require 'app/running_time.php';
+require '../app/running_time.php';

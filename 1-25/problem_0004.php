@@ -1,6 +1,6 @@
 <?php
 
-require '/app/utils.php';
+require '../app/utils.php';
 /*
   Problem 4 https://projecteuler.net/problem=4
 
@@ -29,4 +29,4 @@ for ($i = 999; $i >= 900; $i--) {
 echo $result;
 
 
-require 'app/running_time.php';
+require '../app/running_time.php';

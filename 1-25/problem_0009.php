@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 /*
   Problem 9 https://projecteuler.net/problem=9
   A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
@@ -25,4 +25,4 @@ for ($a = 1; $a <= 333; $a++) {
 }
 
 
-require 'app/running_time.php';
+require '../app/running_time.php';

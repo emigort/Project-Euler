@@ -1,5 +1,5 @@
 <?php
-require '/app/utils.php';
+require '../app/utils.php';
 /*
   Problem 5 https://projecteuler.net/problem=5
 
@@ -34,4 +34,4 @@ function solution($n) {
 
 echo solution(20);
 
-require 'app/running_time.php';
+require '../app/running_time.php';
