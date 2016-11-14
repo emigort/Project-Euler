@@ -16,7 +16,6 @@ require '../app/utils.php';
 
 $begin = new DateTime('1901-01-01');
 $end = new DateTime('2000-12-31');
-$end = $end->modify('+1 day');
 
 $interval = new DateInterval('P1D');
 $daterange = new DatePeriod($begin, $interval, $end);
