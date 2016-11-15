@@ -25,9 +25,9 @@ require '../app/utils.php';
   1000 digits?
  */
 
-$digits = 1000;
+$digits = 3;
 
-echo intval(round(($digits - 1 + log10(sqrt(5))) / log10((1 + sqrt(5)) / 2), 1)) + 1;
+echo intval(($digits - 1 + log10(sqrt(5))) / log10((1 + sqrt(5)) / 2)) + 1;
 
 
 require '../app/running_time.php';
