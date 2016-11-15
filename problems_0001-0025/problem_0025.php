@@ -25,7 +25,7 @@ require '../app/utils.php';
   1000 digits?
  */
 
-$digits = 3;
+$digits = 1000;
 
 echo intval(($digits - 1 + log10(sqrt(5))) / log10((1 + sqrt(5)) / 2)) + 1;
 
