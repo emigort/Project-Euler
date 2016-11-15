@@ -1,4 +1,5 @@
 <?php
+
 require '../app/utils.php';
 /*
   Problem 10 https://projecteuler.net/problem=10
